@@ -1,15 +1,13 @@
 "use client";
-import React from 'react';
-import { motion } from 'framer-motion';
 
 const ServicesAndStats = () => {
   return (
-    <section className="relative w-full bg-[var(--bg-deep)] transition-colors duration-300 py-16 overflow-hidden">
+    <section className="relative w-full bg-(--bg-deep) transition-colors duration-300 py-16 overflow-hidden">
       {/* Ambient glow from the design */}
       <div className="ambient ambient-1"></div>
       <div className="ambient ambient-2"></div>
 
-      <div className="max-w-[1280px] mx-auto px-6 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Service Cards */}
         <div className="services-grid">
 

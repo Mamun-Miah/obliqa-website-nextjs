@@ -32,7 +32,7 @@ const Hero = () => {
   };
 
   return (
-    <div ref={ref} className="relative w-full bg-black overflow-hidden flex flex-col justify-center hero-section">
+    <div ref={ref} className="py-4 relative w-full bg-black overflow-hidden flex flex-col justify-center hero-section">
       {/* Background Video with Animation */}
       <motion.div
         className="absolute top-0 left-0 w-full h-full overflow-hidden"
@@ -95,7 +95,7 @@ const Hero = () => {
 
       {/* Animated Whatsapp Indicator */}
       <motion.div
-        className="absolute bottom-6 md:bottom-10 left-6 md:left-1/2 md:transform md:-translate-x-1/2 z-50 mb-4 md:mb-0"
+        className="absolute bottom-1 md:bottom-10 right-6 md:right-1/2 md:transform md:-translate-x-1/2 z-50 mb-4 md:mb-0"
         animate={{ y: [0, 10, 0], opacity: [0.6, 1, 0.6] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
