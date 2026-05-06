@@ -32,7 +32,7 @@ const Hero = () => {
   };
 
   return (
-    <div ref={ref} className="relative w-full min-h-[100svh] bg-black overflow-hidden flex flex-col justify-center hero-section">
+    <div ref={ref} className="relative w-full bg-black overflow-hidden flex flex-col justify-center hero-section">
       {/* Background Video with Animation */}
       <motion.div
         className="absolute top-0 left-0 w-full h-full overflow-hidden"
@@ -66,7 +66,7 @@ const Hero = () => {
         </h1>
 
         <p className="hero-sub">
-          From custom web development and SEO to brand strategy and digital marketing — OBLIQA delivers end-to-end solutions so your business thrives online.
+          From custom web development and SEO to brand strategy and digital marketing. OBLIQA delivers end-to-end solutions so your business thrives online.
         </p>
 
         <div className="hero-cta-row">
