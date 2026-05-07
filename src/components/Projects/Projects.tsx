@@ -4,6 +4,7 @@ import { FiExternalLink, FiDatabase, FiCpu } from "react-icons/fi";
 import projectsData from "../../../public/projects.json";
 
 const Projects = () => {
+
   const projects = projectsData as any[];
 
   const techIcons: any = {
@@ -67,7 +68,6 @@ const Projects = () => {
                       </div>
                     )}
 
-                    {/* CTA */}
                     {/* CTA */}
                     <div className="mt-auto">
                       {project.link && project.link !== "#" ? (

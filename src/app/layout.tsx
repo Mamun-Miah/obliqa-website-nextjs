@@ -10,7 +10,7 @@ import { ThemeProvider } from "../shared/ThemeProvider";
 import { LanguageProvider } from "../context/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "Obliqa - Premium Web Development & Digital Agency",
+  title: "OBLIQA IT Solutions",
   description: "Obliqa provides top-tier web development, digital marketing, and design solutions tailored for your business needs.",
   keywords: ["web development", "digital agency", "SEO", "marketing"],
   openGraph: {
