@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiDatabase, FiCpu } from "react-icons/fi";
-import ProjectDemo from "./ProjectDemo";
 import projectsData from "../../../public/projects.json";
 
 const Projects = () => {
@@ -15,10 +14,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
-      <div>
-        <ProjectDemo></ProjectDemo>
-      </div>
+    <div className="bg-slate-50 dark:bg-slate-900 transition-colors duration-300 pt-24">
       <div>
         <div className="max-w-7xl mx-auto px-4 lg:px-8 pt-6 pb-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2">
@@ -38,15 +34,15 @@ const Projects = () => {
                     <div className="p-3">
                       <img className="h-56 w-full rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-500 object-cover" src={project.image} alt="" />
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/10 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-t from-slate-900/10 to-transparent" />
                   </div>
 
                   {/* Project Content */}
-                  <div className="p-6 flex-grow flex flex-col bg-white dark:bg-slate-800 relative z-10">
+                  <div className="p-6 grow flex flex-col bg-white dark:bg-slate-800 relative z-10">
                     <h2 className="text-2xl font-bold text-slate-800 dark:text-white py-2">
                       {project.title}
                     </h2>
-                    <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed flex-grow">
+                    <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed grow">
                       {project.description}
                     </p>
 

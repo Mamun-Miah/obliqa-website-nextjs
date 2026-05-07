@@ -1,55 +1,231 @@
 [
-{
-  "id": 2,
-  "title": "Movie Portal",
-  "description": "Movie Portal is an online movie streaming website where users can watch the latest movies and shows anytime, anywhere.",
-  "technologies": [
-    "HTML",
-    "Tailwind CSS",
-    "React",
-    "Express.js",
-    "MongoDB",
-    "Firebase",
-    "Nodejs"
-  ],
-  "image": "./Image/Project_Image/Movie_Portal_Banner.jpg",
-  "link": "https://mshohagdev-movie-portal.netlify.app/#slide3"
-},
-{
-  "id": 3,
-  "title": "Eco Adventure",
-  "description": "Eco Adventure is a tourism website offering thrilling eco-friendly travel experiences. Discover nature, book adventures.",
-  "technologies": [
-    "HTML",
-    "Tailwind CSS",
-    "React",
-    "Firebase"
-  ],
-  "image": "./Image/Project_Image/ECO_Adventure_Banner.jpg",
-  "link": "https://mshohagdev-eco-adventure.netlify.app/"
-},
-{
-  "id": 4,
-  "title": "BPL Dream",
-  "description": "BPL Dream Player Selection lets you build and share your dream BPL team by picking your favorite players.",
-  "technologies": [
-    "HTML",
-    "Tailwind CSS",
-    "React"
-  ],
-  "image": "./Image/Project_Image/BPL_Dream_Banner.jpg",
-  "link": "https://mshohagbev-bpl-dream.netlify.app/"
-},
-{
-  "id": 6,
-  "title": "Peddy (Pet Adoption)",
-  "description": "Pet Adoption is a caring platform where you can find and adopt loving pets looking for a forever home.",
-  "technologies": [
-    "HTML",
-    "Tailwind CSS",
-    "React"
-  ],
-  "image": "./Image/Project_Image/Pet_Adopt_Banner.jpg",
-  "link": "https://mshohagdev-pet-adopt.netlify.app/"
-}
+  {
+    "id": 1,
+    "title": "Restaurant Management System",
+    "description": "Restaurant Management System helps restaurants manage orders, tables, billing, menu items, staff, and customer records in one platform. It improves service speed, reduces errors, and makes restaurant operations more efficient.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "Nodejs"
+    ],
+    "image": "./Image/Project_Image/Restaurant.jpg",
+    "link": "https://restaurant-website-lyart-chi.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Website",
+    "description": "E-commerce Website is an online platform that allows businesses to showcase products, manage orders, and accept secure payments. It helps customers shop anytime, anywhere with a smooth and user-friendly experience.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "Nodejs"
+    ],
+    "image": "./Image/Project_Image/E-Commerce.jpg",
+    "link": "https://mou-and-dream-jewelry-website.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Hospital Management System",
+    "description": "A Hospital Management System (HMS) helps hospitals manage patients, appointments, billing, and reports easily in one platform.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Hospital.jpg",
+    "link": "https://hospital-website-h138sbyct-shohag-kaisars-projects.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Clinic Management System",
+    "description": "Clinic Management System helps clinics manage patient records, appointments, doctors, billing, prescriptions, and reports in one platform. It improves patient care, saves time, and makes clinic operations more efficient.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Clinic_Management.jpg",
+    "link": "https://clinic-management-website-seven.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Resort Management System",
+    "description": "Resort Management System helps resorts manage bookings, rooms, guests, billing, staff, and reports in one platform. It improves customer service, saves time, and makes resort operations more efficient.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Resort_Management.jpg",
+    "link": "https://resort-website-kohl.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Gym Website",
+    "description": "Gym Website is a modern platform that helps gyms showcase fitness programs, trainers, membership plans, schedules, and contact information. It helps attract new members and provides a better experience for fitness enthusiasts.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Gym.jpg",
+    "link": "https://gym-website-woad-nine.vercel.app/"
+  },
+  {
+    "id": 7,
+    "title": "Doctor Appointments Website",
+    "description": "Doctor Appointments Website helps patients book appointments, find doctors, check schedules, and manage medical consultations online. It makes healthcare services faster, easier, and more convenient for both patients and doctors.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Doctor_Appointment.jpg",
+    "link": "https://doctor-appointment-system-olive.vercel.app/"
+  },
+  {
+    "id": 7,
+    "title": "Tours & Travels Management",
+    "description": "Tours & Travels Management System helps travel agencies manage tour packages, bookings, customers, payments, schedules, and travel information in one platform. It improves customer service and makes travel management easier and more organized.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Tours_Travels.jpg",
+    "link": "https://gogreen-tours-travels.vercel.app/"
+  },
+  {
+    "id": 8,
+    "title": "Jewellery Website",
+    "description": "Jewellery Website is a modern online platform that showcases jewellery collections, categories, pricing, and customer inquiries. It helps jewellery businesses attract customers, display products beautifully, and grow online sales.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Jewellery_Website.jpg",
+    "link": "https://jewelry-website-alpha.vercel.app/"
+  },
+  {
+    "id": 9,
+    "title": "Fashion E-Commerce Website",
+    "description": "Fashion E-Commerce Website is an online shopping platform that helps customers browse fashion products, place orders, make secure payments, and track deliveries easily. It provides a smooth shopping experience and helps fashion brands grow their online business.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Fashion_Ecommerce.jpg",
+    "link": "https://luxe-fashion-store-five.vercel.app/"
+  },
+  {
+    "id": 10,
+    "title": "Salon Booking System",
+    "description": "Salon Booking System is an online platform that allows customers to book salon services, choose stylists, check availability, and manage appointments easily. It helps salons organize bookings, reduce waiting time, and improve customer experience.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "Next.js",
+      "Firebase",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
+    ],
+    "image": "./Image/Project_Image/Salon_Booking.jpg",
+    "link": "https://salon-booking-website-pi.vercel.app/"
+  },
+  {
+    "id": 8,
+    "title": "Movie Portal",
+    "description": "Movie Portal is an online movie streaming website where users can explore, stream, and enjoy the latest movies, TV shows, and web series anytime and anywhere. It offers a smooth viewing experience with categorized content, search options, and easy navigation more accessible and enjoyable for everyone.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React",
+      "Express.js",
+      "MongoDB",
+      "Firebase",
+      "Nodejs"
+    ],
+    "image": "./Image/Project_Image/Movie_Portal_Banner.jpg",
+    "link": "https://mshohagdev-movie-portal.netlify.app/#slide3"
+  },
+  {
+    "id": 9,
+    "title": "Eco Adventure",
+    "description": "Eco Adventure is a tourism website offering thrilling eco-friendly travel experiences. Discover nature, book adventures.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React",
+      "Firebase"
+    ],
+    "image": "./Image/Project_Image/ECO_Adventure_Banner.jpg",
+    "link": "https://mshohagdev-eco-adventure.netlify.app/"
+  },
+  {
+    "id": 10,
+    "title": "BPL Dream",
+    "description": "BPL Dream Player Selection lets you build and share your dream BPL team by picking your favorite players.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React"
+    ],
+    "image": "./Image/Project_Image/BPL_Dream_Banner.jpg",
+    "link": "https://mshohagbev-bpl-dream.netlify.app/"
+  },
+  {
+    "id": 11,
+    "title": "Peddy (Pet Adoption)",
+    "description": "Pet Adoption is a caring platform where you can find and adopt loving pets looking for a forever home.",
+    "technologies": [
+      "HTML",
+      "Tailwind CSS",
+      "React"
+    ],
+    "image": "./Image/Project_Image/Pet_Adopt_Banner.jpg",
+    "link": "https://mshohagdev-pet-adopt.netlify.app/"
+  }
 ]
