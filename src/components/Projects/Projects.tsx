@@ -32,7 +32,7 @@ const Projects = () => {
                   {/* Project Header */}
                   <div className="relative overflow-hidden group">
                     <div className="p-3">
-                      <img className="h-56 w-full rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-500 object-cover" src={project.image} alt="" />
+                      <img className="h-56 w-full rounded-2xl shadow-md group-hover:scale-105 transition-transform duration-500 object-fit" src={project.image} alt="" />
                     </div>
                     <div className="absolute inset-0 bg-linear-to-t from-slate-900/10 to-transparent" />
                   </div>
@@ -46,35 +46,45 @@ const Projects = () => {
                       {project.description}
                     </p>
 
-                    {/* Technologies */}
-                    <div className="mb-4">
-                      <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
-                        Technologies
-                      </h3>
-                      <div className="flex flex-wrap gap-2">
-                        {project.technologies?.map((tech: string) => (
-                          <div
-                            key={tech}
-                            className="flex items-center px-4 py-1.5 rounded-full bg-slate-50 dark:bg-slate-700/50 text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-600 shadow-sm"
-                          >
-                            <span className="mr-1.5">{techIcons[tech] || <FiCpu className="text-slate-500" />}</span>
-                            {tech}
-                          </div>
-                        ))}
+                    {project.technologies?.length > 0 && (
+                      <div className="mb-4">
+                        <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
+                          Technologies
+                        </h3>
+                        <div className="flex flex-wrap gap-2">
+                          {project.technologies.map((tech: string) => (
+                            <div
+                              key={tech}
+                              className="flex items-center px-4 py-1.5 rounded-full bg-slate-50 dark:bg-slate-700/50 text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-600 shadow-sm"
+                            >
+                              <span className="mr-1.5">
+                                {techIcons[tech] || <FiCpu className="text-slate-500" />}
+                              </span>
+                              {tech}
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    )}
 
                     {/* CTA */}
+                    {/* CTA */}
                     <div className="mt-auto">
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center w-full justify-center px-4 py-2.5 bg-orange-500 hover:bg-sky-600 text-white font-medium rounded-full duration-300"
-                      >
-                        View Project
-                        <FiExternalLink className="ml-2" />
-                      </a>
+                      {project.link && project.link !== "#" ? (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center w-full justify-center px-4 py-2.5 bg-orange-500 hover:bg-sky-600 text-white font-medium rounded-full duration-300"
+                        >
+                          View Project
+                          <FiExternalLink className="ml-2" />
+                        </a>
+                      ) : (
+                        <div className="inline-flex items-center w-full justify-center px-4 py-2.5 bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-medium rounded-full">
+                          No link available
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

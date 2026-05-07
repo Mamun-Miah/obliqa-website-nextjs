@@ -112,7 +112,7 @@
     "link": "https://doctor-appointment-system-olive.vercel.app/"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Tours & Travels Management",
     "description": "Tours & Travels Management System helps travel agencies manage tour packages, bookings, customers, payments, schedules, and travel information in one platform. It improves customer service and makes travel management easier and more organized.",
     "technologies": [
@@ -128,7 +128,7 @@
     "link": "https://gogreen-tours-travels.vercel.app/"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Jewellery Website",
     "description": "Jewellery Website is a modern online platform that showcases jewellery collections, categories, pricing, and customer inquiries. It helps jewellery businesses attract customers, display products beautifully, and grow online sales.",
     "technologies": [
@@ -144,7 +144,7 @@
     "link": "https://jewelry-website-alpha.vercel.app/"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Fashion E-Commerce Website",
     "description": "Fashion E-Commerce Website is an online shopping platform that helps customers browse fashion products, place orders, make secure payments, and track deliveries easily. It provides a smooth shopping experience and helps fashion brands grow their online business.",
     "technologies": [
@@ -160,7 +160,7 @@
     "link": "https://luxe-fashion-store-five.vercel.app/"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Salon Booking System",
     "description": "Salon Booking System is an online platform that allows customers to book salon services, choose stylists, check availability, and manage appointments easily. It helps salons organize bookings, reduce waiting time, and improve customer experience.",
     "technologies": [
@@ -175,57 +175,50 @@
     "image": "./Image/Project_Image/Salon_Booking.jpg",
     "link": "https://salon-booking-website-pi.vercel.app/"
   },
-  {
-    "id": 8,
-    "title": "Movie Portal",
-    "description": "Movie Portal is an online movie streaming website where users can explore, stream, and enjoy the latest movies, TV shows, and web series anytime and anywhere. It offers a smooth viewing experience with categorized content, search options, and easy navigation more accessible and enjoyable for everyone.",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React",
-      "Express.js",
-      "MongoDB",
-      "Firebase",
-      "Nodejs"
-    ],
-    "image": "./Image/Project_Image/Movie_Portal_Banner.jpg",
-    "link": "https://mshohagdev-movie-portal.netlify.app/#slide3"
-  },
-  {
-    "id": 9,
-    "title": "Eco Adventure",
-    "description": "Eco Adventure is a tourism website offering thrilling eco-friendly travel experiences. Discover nature, book adventures.",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React",
-      "Firebase"
-    ],
-    "image": "./Image/Project_Image/ECO_Adventure_Banner.jpg",
-    "link": "https://mshohagdev-eco-adventure.netlify.app/"
-  },
-  {
-    "id": 10,
-    "title": "BPL Dream",
-    "description": "BPL Dream Player Selection lets you build and share your dream BPL team by picking your favorite players.",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React"
-    ],
-    "image": "./Image/Project_Image/BPL_Dream_Banner.jpg",
-    "link": "https://mshohagbev-bpl-dream.netlify.app/"
-  },
-  {
-    "id": 11,
-    "title": "Peddy (Pet Adoption)",
-    "description": "Pet Adoption is a caring platform where you can find and adopt loving pets looking for a forever home.",
-    "technologies": [
-      "HTML",
-      "Tailwind CSS",
-      "React"
-    ],
-    "image": "./Image/Project_Image/Pet_Adopt_Banner.jpg",
-    "link": "https://mshohagdev-pet-adopt.netlify.app/"
-  }
+{
+  "id": 12,
+  "title": "CRM Software",
+  "description": "CRM Software is a powerful customer management system that helps businesses manage leads, track sales, store customer data, and improve communication. It streamlines sales and marketing processes, strengthens customer relationships, and helps grow business efficiently.",
+  "technologies": [
+    "HTML",
+    "Tailwind CSS",
+    "Next.js",
+    "Firebase",
+    "TypeScript",
+    "Prisma",
+    "PostgreSQL"
+  ],
+  "image": "./Image/Project_Image/CRM.jpg",
+  "link": "#"
+},
+{
+  "id": 11,
+  "title": "HRM Software",
+  "description": "HRM Software is a complete human resource management system that helps businesses manage employees, attendance, payroll, recruitment, leave, and performance in one platform. It automates HR processes, reduces manual work, and improves workforce efficiency and productivity.",
+  "technologies": [
+
+  ],
+  "image": "./Image/Project_Image/HRM_Software.jpg",
+  "link": "#"
+},
+{
+  "id": 12,
+  "title": "School Website",
+  "description": "School Website is an online platform that helps schools manage students, teachers, classes, admissions, exams, results, attendance, and communication with parents. It makes school operations more organized, efficient, and accessible for everyone.",
+  "technologies": [
+
+  ],
+  "image": "./Image/Project_Image/School.jpg",
+  "link": "#"
+},
+{
+  "id": 13,
+  "title": "Invoicing Software",
+  "description": "Invoicing Software is a smart billing solution that helps businesses create, send, and manage invoices quickly and accurately. It automates billing processes, tracks payments, generates financial reports, and improves cash flow management while reducing manual errors.",
+  "technologies": [
+
+  ],
+  "image": "./Image/Project_Image/Invoicing.jpg",
+  "link": "#"
+}
 ]

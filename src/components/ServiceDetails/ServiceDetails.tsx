@@ -12,7 +12,8 @@ const ServiceDetails = () => {
   const services = [
     {
       title: "Web Development",
-      description: "We build fast, modern websites and web apps using WordPress, React, Node.js, Express, and MongoDB.",
+      description:
+        "We build fast, modern websites and web apps using WordPress, React, Node.js, Express, and MongoDB.",
       features: [
         "Custom web application development",
         "E-commerce solutions",
@@ -20,43 +21,125 @@ const ServiceDetails = () => {
         "Database architecture",
       ],
       color: "from-orange-400 via-orange-500 to-orange-400",
-      icon: "💻"
+      icon: "💻",
     },
     {
       title: "SEO Services",
-      description: "Comprehensive SEO services to boost your website’s visibility, increase organic traffic, and improve search rankings.",
+      description:
+        "Comprehensive SEO services to boost your website’s visibility, increase organic traffic, and improve search rankings.",
       features: [
         "Keyword research & strategy",
         "On-page optimization",
         "Technical SEO audits",
-        "Backlink building"
+        "Backlink building",
       ],
       color: "from-orange-400 via-orange-500 to-orange-400",
-      icon: "🔍"
+      icon: "🔍",
+    },
+    {
+      title: "Business Digital Solutions (ERP / CRM / SaaS)",
+      description:
+        "We build ERP, CRM, and SaaS systems to manage business operations and boost productivity.",
+      features: [
+        "Custom ERP system development",
+        "CRM platform development",
+        "SaaS product development",
+        "Business workflow automation",
+        "Admin dashboards & analytics systems"
+      ],
+      color: "from-orange-400 via-orange-500 to-orange-400",
+      icon: "📊"
+    },
+    {
+      title: "WordPress Plugin Development",
+      description:
+        "Custom WordPress plugin development to extend website functionality and improve performance.",
+      features: [
+        "Custom plugin development",
+        "WooCommerce extensions",
+        "API integrations",
+        "Performance optimization",
+      ],
+      color: "from-orange-400 via-orange-500 to-orange-400",
+      icon: "🔌",
+    },
+    {
+      title: "AI Integration",
+      description:
+        "Integrate AI-powered features into your applications to automate tasks and improve user experience.",
+      features: [
+        "OpenAI / AI API integration",
+        "Smart automation systems",
+        "AI-based recommendations",
+        "Data analysis solutions",
+      ],
+      color: "from-orange-400 via-orange-500 to-orange-400",
+      icon: "🤖",
+    },
+    {
+      title: "AI Chatbot Development",
+      description:
+        "Build intelligent chatbots that handle customer support, lead generation, and automation.",
+      features: [
+        "Customer support chatbot",
+        "WhatsApp & web chatbot",
+        "AI conversation systems",
+        "Lead generation bots",
+      ],
+      color: "from-orange-400 via-orange-500 to-orange-400",
+      icon: "💬",
+    },
+    {
+      title: "Mobile Application Development",
+      description:
+        "Develop high-performance mobile applications for Android and iOS platforms.",
+      features: [
+        "React Native apps",
+        "Cross-platform development",
+        "API integration",
+        "UI/UX optimization",
+      ],
+      color: "from-orange-400 via-orange-500 to-orange-400",
+      icon: "📱",
+    },
+    {
+      title: "Networking Solutions",
+      description:
+        "Reliable networking setup and infrastructure solutions for businesses and organizations.",
+      features: [
+        "Network setup & configuration",
+        "Server management",
+        "Security & firewall setup",
+        "Troubleshooting & maintenance",
+      ],
+      color: "from-orange-400 via-orange-500 to-orange-400",
+      icon: "🌐",
     },
     {
       title: "Digital Marketing",
-      description: "Data-driven marketing strategies to grow your online presence and customer base.",
+      description:
+        "Data-driven marketing strategies to grow your online presence and customer base.",
       features: [
         "Social media marketing",
         "Pay-per-click advertising",
         "Content marketing",
-        "Conversion rate optimization"
+        "Conversion rate optimization",
       ],
       color: "from-orange-400 via-orange-500 to-orange-400",
-      icon: "📈"
+      icon: "📈",
     },
     {
       title: "IT Consultancy",
-      description: "Expert technology consulting to help your business make informed digital decisions.",
+      description:
+        "Expert technology consulting to help your business make informed digital decisions.",
       features: [
         "Technology stack recommendations",
         "System architecture planning",
         "Cloud migration strategies",
-        "IT security consulting"
+        "IT security consulting",
       ],
       color: "from-orange-400 via-orange-500 to-orange-400",
-      icon: "🛠️"
+      icon: "🛠️",
     }
   ];
 
